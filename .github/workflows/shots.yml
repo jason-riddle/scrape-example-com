@@ -58,7 +58,7 @@ jobs:
         shot-scraper html http://www.example.com/ -o example.com.html
     - name: Take pdf
       run: |
-        shot-scraper pdf http://www.example.com/ -o example.com.pdf
+        shot-scraper pdf http://www.example.com/ -o shots/example.com.pdf
     - name: Commit and push
       run: |-
         git config user.name "Automated"

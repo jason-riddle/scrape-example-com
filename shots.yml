@@ -1,4 +1,8 @@
 ---
 # See: https://shot-scraper.datasette.io/en/stable/multi.html
 - url: http://www.example.com/
+  output: example.com.jpg
+- url: http://www.example.com/
+  output: example.com.pdf
+- url: http://www.example.com/
   output: example.com.png

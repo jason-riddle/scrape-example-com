@@ -52,13 +52,13 @@ jobs:
           }
     - name: Take shots
       run: |
-        shot-scraper multi shots.yml
+        make multi
     - name: Take html
       run: |
-        shot-scraper html http://www.example.com/ -o example.com.html
+        make html
     - name: Take pdf
       run: |
-        shot-scraper pdf http://www.example.com/ -o shots/example.com.pdf
+        make pdf
     - name: Commit and push
       run: |-
         git config user.name "Automated"

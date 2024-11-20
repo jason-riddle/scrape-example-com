@@ -3,6 +3,4 @@
 - url: http://www.example.com/
   output: example.com.jpg
 - url: http://www.example.com/
-  output: example.com.pdf
-- url: http://www.example.com/
   output: example.com.png
